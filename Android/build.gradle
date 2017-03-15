@@ -4,7 +4,7 @@ buildscript {
     }
 
     dependencies {
-        classpath 'com.android.tools.build:gradle:2.2.2'
+        classpath 'com.android.tools.build:gradle:2.2.3'
     }
 }
 
@@ -35,7 +35,6 @@ repositories {
 
 dependencies {
     compile 'com.facebook.react:react-native:+'
-    compile 'com.squareup.retrofit2:retrofit:2.1.0'
     compile('com.twitter.sdk.android:tweet-composer:2.0.0@aar') {
         transitive = true;
     }

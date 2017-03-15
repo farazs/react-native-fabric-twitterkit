@@ -56,3 +56,8 @@ build/Release
 node_modules
 build/
 
+# Idea and Android Studio
+.idea
+*.iml
+android/local.properties
+
